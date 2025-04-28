@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "avaliacao-AnaTsubouchi" ]
   pull_request:
-    branches: [ "avaliacao-AnaTsubouchi" ]
+    branches: [ "main" ]
   schedule:
     - cron: '22 16 * * 2'
 
